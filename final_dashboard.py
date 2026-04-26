@@ -70,8 +70,6 @@ trend = trend[["TIME_PERIOD", "OBS_VALUE"]].set_index("TIME_PERIOD")
 
 st.line_chart(trend)
 
-st.subheader(f"Global Stats ({year})")
-
 st.subheader("Compare Two Countries")
 
 col1, col2 = st.columns(2)
